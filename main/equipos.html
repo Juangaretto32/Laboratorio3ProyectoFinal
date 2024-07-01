@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>La Tienda De Saul</title>
+      <link rel="stylesheet" href="/main/style.css">
+    </head>
+
+    <body>
+
+          <h1 class="Latiendadesaul" >La Tienda De Saul</h1>
+          <a class = "volver" href="/main/index.html">Volver</a>
+
+          <div>
+              <h2>Cargar Equipo</h2>
+              <!-- Formulario -->
+              <form action="javascript:none">
+                <p>Modelo</p>
+                <input type="text" id="Producto">
+                <p>Precio en Pesos $</p>
+                <input type="number" id="Precioenpesos">
+                <p>Precio en USD $</p>
+                <input type="number" id="Precioenusd">
+                <p>Fecha de Ingreso</p>
+                <input type="date" id="Fecha">
+                <p></p>
+
+                <div class = "btncyc">
+                      <button class = "botonescyc" onclick="CreandoProducto()"> Cargar Equipo </button>
+                  </form>
+                    <p></p>
+                      <button class = "botonescyc" onclick="CargarProducto()">Mostrar Equipos</button>
+                </div>
+          </div>
+    
+          <div class = "listaequipos" id="lista" style="display: none;">
+            <h1>Lista de Equipos Apple</h1>
+            <table>
+              <tr>
+                <th>IdCod</th>
+                <th>Titulo</th>
+                <th>Precio Pesos</th>
+                <th>Precio Dolar</th>
+                <th>Fecha</th>
+              </tr>
+              <tbody id ="Resultados"></tbody>
+            </table>
+            
+          </div>
+    </body>
+    <footer>
+      <div>
+          <p>Gmail: latiendadesaul@gmail.com</a></p>
+          <p>Contacto: WhatsApp: 3564-358099</a></p>
+          <p>Direccion: Av Roca 2170</a></p>
+          <p>© 2024 La Tienda De Saul. Todos los derechos reservados.</p>
+    </div>
+   </footer>
+   <script src="/main/script.js"></script>
+</html>

@@ -1,0 +1,233 @@
+html {
+    background-image: url(/img/fondo.jpg); /* Ruta de la imagen de fondo */
+    background-size: cover; /* La imagen cubre todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* No repite la imagen */
+}
+.fotoingreso{
+    width: 500px;
+}
+.contenedor{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 80vh; 
+    box-sizing: border-box; 
+}
+
+.div1  {
+   text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: red;
+   font-size: 20px;
+    width: 50%; 
+    padding: 10px;
+     
+}
+.fotoingreso{
+    width: 30%;
+}
+.Latiendadesaul{
+    color: rgb(7, 7, 7);
+    text-align: center;
+    font-size: 60px;
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+.volver {
+    color: rgb(7, 7, 7);
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: 10px;
+}
+/* BOTONES DE CARGAR Y MOSTRAR  */
+.btncyc{
+    display: flex;
+    justify-content: flex-start; /* Alinea los botones al inicio del contenedor */
+    gap: 10px; /* Espacio entre los botones */
+    margin-top: 10px; /* Espacio adicional para separar el contenedor de los botones del formulario */
+}
+.botonescyc{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.volvermodificador{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.listaequipos {
+    display: block; 
+    margin-top: 1px; 
+    padding: 10px; 
+    border: 5px solid #e42222; 
+    border-radius: 30px; 
+    background-color: #d86060; 
+}
+.listaequipos h1 {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color:black;
+    margin-bottom: 15px; 
+}
+
+.listaequipos table {
+    width: 100%; 
+    border-collapse:separate; 
+    margin-top: 15px;
+}
+
+.listaequipos th, .listaequipos td {
+    border: 2px solid #000000; 
+    padding: 5px; 
+    text-align: center; 
+}
+@media (max-width: 600px) {
+    
+    html {
+        background-image: url(/img/fondo.jpg); /* Ruta de la imagen de fondo */
+        background-size: cover; /* La imagen cubre todo el fondo */
+        background-position: center; /* Centra la imagen */
+        background-repeat: no-repeat; /* No repite la imagen */
+    }
+    .fotoingreso{
+        width: 500px;
+    }
+    .contenedor{
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+        height: 80vh; 
+        box-sizing: border-box; 
+    }
+    
+    .div1  {
+       text-align: center;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       color: red;
+       font-size: 20px;
+        width: 50%; 
+        padding: 10px;
+         
+    }
+    .fotoingreso{
+        width: 30%;
+    }
+    .Latiendadesaul{
+        color: rgb(7, 7, 7);
+        text-align: center;
+        font-size: 60px;
+    }
+    table {
+        width: 50%;
+        border-collapse: collapse;
+        margin: 20px 0;
+    }
+    table, th, td {
+        border: 1px solid black;
+    }
+    th, td {
+        padding: 8px;
+        text-align: center;
+    }
+    .volver {
+        color: rgb(7, 7, 7);
+        background-color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding: 10px;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 5px;
+        margin: 10px;
+    }
+    /* BOTONES DE CARGAR Y MOSTRAR  */
+    .btncyc{
+        display: flex;
+        justify-content: flex-start; /* Alinea los botones al inicio del contenedor */
+        gap: 10px; /* Espacio entre los botones */
+        margin-top: 10px; /* Espacio adicional para separar el contenedor de los botones del formulario */
+    }
+    .botonescyc{
+        display: inline-block;
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding: 10px 20px;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 5px;
+        margin: 5px;
+        text-align: center;
+        cursor: pointer;
+    }
+    .volvermodificador{
+        display: inline-block;
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding: 10px 20px;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 5px;
+        margin: 5px;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    .listaequipos {
+        display: block; 
+        margin-top: 1px; 
+        padding: 10px; 
+        border: 5px solid #e42222; 
+        border-radius: 30px; 
+        background-color: #d86060; 
+    }
+    .listaequipos h1 {
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        color:black;
+        margin-bottom: 15px; 
+    }
+    
+    .listaequipos table {
+        width: 100%; 
+        border-collapse:separate; 
+        margin-top: 15px;
+    }
+    
+    .listaequipos th, .listaequipos td {
+        border: 2px solid #000000; 
+        padding: 5px; 
+        text-align: center; 
+    }
+
+}
+
